@@ -15,12 +15,14 @@
             <div class="main-box">
                 <div class="signup-text">Sign up</div>
                 <div class="indata">
+                    <form role="form" action="/signup" accept-charset="UTF-8" method="post" class="signup-form"></form>
                     <label for="email" class="block">Email ID</label>
-                    <input type="email" name="email" id="email" placeholder="username@example.com" class="block">
+                    <input type="email" name="email" id="email" placeholder="username@example.com" class="block" required/>
                     <label for="password" class="block">Password</label>
-                    <input type="password" name="password" id="password" placeholder="********" class="block">
-                    <button class="signup-button" class="block">Sign up</button>
+                    <input type="password" name="password" id="password" placeholder="********" class="block" required/>
+                    <button type="submit" class="signup-button" class="block">Sign up</button>
                     <a href="/forgot-password/new" class="for-pass block">Forgetten password?</a>
+                    </form>
                 </div>
             </div>
             <div class="login">Already have a account? <a href="/login" class="login-link">Log in</a></div>

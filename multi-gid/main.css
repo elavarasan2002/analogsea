@@ -1,0 +1,42 @@
+.contain{
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row01, .row02, .row03, .row04{
+    height: 220px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+.row01{
+    width: 220px;
+}
+.row02{
+    width: 300px;
+}
+.row03{
+    width:460px;
+}
+.row04{
+    width: 940px;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    color: white;
+    background-color: black;
+}
+*{
+   box-sizing: border-box; 
+   text-align: center;
+}
+
+
