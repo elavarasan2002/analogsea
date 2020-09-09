@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+}
+.logo{
+    margin-top: 20px;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-bottom: 50px;
+}
+.main-box{
+    padding: 10px 10px 50px 35px;
+    display: block;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.login{
+    text-align: center;
+}
+.signup-text{
+    font-size: 40px;
+    text-align: center;
+}
+.block{
+    display: block;
+}
+.indata{
+    padding: 20px 10px 30px 10px;
+}
+.for-pass{
+    padding-top: 10px;
+    text-align: center;
+}
+button, input{
+    margin: auto;
+    display: block;
+    width: 320px;
+    padding: 15px;
+}
+.signup-button{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 20px;
+    width: 355px;
+    background-color: greenyellow;
+}
+label{
+    padding: 10px 10px 10px 10px;
+
+}
+*{
+    font-family: 'Fredoka One', cursive;
+}
+button:hover{
+    background-color: green;
+}
